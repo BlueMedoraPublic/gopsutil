@@ -1,3 +1,9 @@
+Blue Medora Modifications
+=============================
+Added `typeret` to disk/disk.go in order to get the device type
+
+
+
 gopsutil: psutil for golang
 ==============================
 
