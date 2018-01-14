@@ -128,6 +128,7 @@ func PartitionsWithContext(ctx context.Context, all bool) ([]PartitionStat, erro
 					Device:     path,
 					Fstype:     string(bytes.Replace(lpFileSystemNameBuffer, []byte("\x00"), []byte(""), -1)),
 					Opts:       opts,
+					Typeret:    typeret,
 				}
 				ret = append(ret, d)
 			}
